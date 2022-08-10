@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>p5.js example</title>
+
+<style>
+
+ 
+
+.myDiv {
+    border-collapse: separate;
+    text-align: center;
+    border: none !important;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(242,242,242) 0%, rgba(255,245,252) 35%, rgba(251,225,225) 66%, rgba(0,212,255,1) 100%);
+
+    display: flex;
+    line-height: 50px;
+    margin: 0px;
+    border-style: none;
+    border-collapse: collapse; 
+ }
+
+.myDiv2 { 
+    border-style: none;
+    border-collapse: collapse; 
+    border-collapse: separate;
+    border-spacing: 15px 50px;
+    text-align: center;
+    border: none !important;
+    padding: 0;
+    margin: 0;
+    background: rgb(2,0,36);
+    background: linear-gradient(60deg, rgba(2,0,36,1) 0%, rgba(255,0,249,0.6502801804315477) 35%, rgba(7,50,148,1) 66%, rgba(0,212,255,1) 100%); 
+ }
+
+}
+
+</div>
+</style>
+</head>
+<body>
+
+
+
+
+<div class="clipped" >
+  <h2>CSS</h2>
+ 
+<div class="myDiv" >
+
+<div class="myDiv" >
+  <h2>CSS</h2>
+ 
+</div>
+
+
+<div class="myDiv2" >
+  <h2>CSS</h2>
+ 
+</div>
+ 
+
+  
+
+<svg width="120" height="240" version="1.1" xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+      <linearGradient id="Gradient1">
+        <stop class="stop1" offset="0%"/>
+        <stop class="stop2" offset="50%"/>
+        <stop class="stop3" offset="90%"/>
+      </linearGradient>
+
+      <linearGradient id="Gradient2" x1="0" x2="0" y1="0" y2="1">
+        <stop offset="0%" stop-color="red"/>
+        <stop offset="50%" stop-color="black" stop-opacity="0"/>
+        <stop offset="100%" stop-color="cyan"/>
+      </linearGradient>
+      <style type="text/css"><![CDATA[
+        #rect1 { fill: url(#Gradient1); }
+        .stop1 { stop-color: #fff5fc; }
+        .stop2 { stop-color: pink; stop-opacity: 0; }
+        .stop3 { stop-color: #fbe1e1;} 
+      ]]></style>
+  </defs>
+ 
+  <rect id="rect1" x="10" y="10" rx="15" ry="15" width="100" height="100"/>
+  <rect x="10" y="120" rx="15" ry="15" width="100" height="100" fill="url(#Gradient2)"/>
+  <text x="0" y="15" fill="red">SVG</text>
+</svg>
+
+
+  <script src="../p5.js"></script>
+
+     <!-- <script src="../addons/p5.sound.js"></script> -->
+  <script src="sketch.js"></script>
+</head>
+
+<body>
+  <main>
+
+HTML
+
+<svg version="1.1" width="500" height="200" xmlns="http://www.w3.org/2000/svg">
+
+  <rect width="50%" height="100%" fill="pink" /> 
+
+  <circle cx="150" cy="100" r="80" fill="white" />
+
+  <text x="150" y="125" font-size="60" text-anchor="middle" fill="cyan">SVG</text>
+
+
+ 
+</svg>
+
+
+  </main>
+
+     <div class="banner">
+    <div class="clipped">
+      <h2>Here is some text</h2>
+      <p>This div is clipped, with a max-width on contained elements to prevent content being clipped.</p>
+  </div>
+
+</body>
+
+</html>
