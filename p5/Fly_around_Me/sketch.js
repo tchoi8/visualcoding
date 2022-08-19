@@ -1,5 +1,5 @@
 let x = 5;
-let y = 10;
+let y = 15;
 let a = 0;
 let b = 0;
 
@@ -24,7 +24,7 @@ function draw() {
   x = width / 2;
   y = height / 2;
   
-  let x2 = sin(a) * 100;
+  let x2 = sin(a) * 50;
   let y2 = cos(a) * 50;
   
   let x3 = sin(b) * 200;
@@ -34,37 +34,7 @@ function draw() {
   ellipse(x + x2 + x3, y + y2 + y3, 15, 15);
   
   a = a + 0.01;
-  b = b + 0.1;
+  b = b + 0.05;
    
 }
-
-
- 
- let x = 10;
-let y = 10;
-let a = 0;
-let b = 0;
-
-function setup() {
-  createCanvas(600, 600);
-  background("orange");
-  noStroke();
-  smooth();
-}
-
-function draw() {  
-  x = x + 1;
-  y = y + 1;
-  
-  let x2 = sin(a) * 50;
-  let y2 = cos(a) * 50;
-
-    
-  fill(255, 0, 0);
-  ellipse(x + x2, y + y2, 15, 15);
-  
-  a = a + 0.1;
-  b = b + 0.01;
-}
- 
  
