@@ -14,6 +14,7 @@ function draw() {
   rectMode(CORNER);
   rect(210,250,80,30) 
   bezier(210,280, 220, 250, 280, 280, 290, 250);
+
 }
 
 

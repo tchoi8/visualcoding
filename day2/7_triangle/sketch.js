@@ -5,12 +5,10 @@ function setup() {
 }
 
 function draw() {
+ background(200);
+ fill(100);
+ triangle(100, 250, 400, 250, 250, 100);
  
- // 배경이 되는 첫 원 
-  fill(200);
-triangle(100, 250, 400, 250, 250, 100);
- 
-
  }
   
 

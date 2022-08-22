@@ -1,20 +1,21 @@
 function setup() {
   createCanvas(500, 500);
   noStroke();
- background(200)
+  background(200)
+ 
 }
 
 function draw() {
  
- // 배경이 되는 첫 원 
-fill(0);
-rectMode(CENTER);
-rect(100,100,50,50)  
 
 rectMode(CORNER);
-fill(100); 
+fill(200,100,100,1); 
 rect(100,100,50,50)  
 
+rectMode(CENTER);
+fill(100,200,10,1);
+rect(100,100,50,50)  
+  
 
  }
   

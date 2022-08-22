@@ -1,5 +1,6 @@
+ 
 function setup() {
-  createCanvas(500, 500);
+createCanvas(500, 500);
  background(200);
 
 }
@@ -16,7 +17,15 @@ vertex(100,250);
 vertex(250,400);
 vertex(250,400);
 vertex(400,250);
-endShape();
+ 
+endShape(CLOSE);
+
+
+
+
+
+
+
 
 beginShape();
 vertex(250,250);
@@ -28,15 +37,4 @@ endShape();
  }
 
 
-
-
-
-
-
-
-
-
-
-
- 
  

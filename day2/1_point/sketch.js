@@ -1,13 +1,18 @@
 function setup() {
   createCanvas(500, 500);
-  background(220);  
-}
+  
+  }
 
 function draw() {
+   background(220); 
+ 
+  strokeWeight(10);
+  point(250,250);
   
- strokeWeight(5);
- point(250,250);
- point(mouseX,mouseY);
+  point(mouseX, mouseY);
+
+  text("(" + mouseX + ", " + mouseY + ")", mouseX + 50, mouseY + 50);
+
 
 }
 
